@@ -1,13 +1,15 @@
 <template>
-<div></div>
+  <div>
+    <nav-header></nav-header>
+  </div>
 </template>
 
 <script>
+import navHeader from "../src/components/Header";
 export default {
-  data () {
-    return {
-     
-    }
+  components: { navHeader },
+  data() {
+    return {};
   }
-}
+};
 </script>
