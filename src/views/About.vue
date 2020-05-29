@@ -19,14 +19,15 @@
   </div>
 </template>
 <script>
+import { mapGetters } from "vuex";
 export default {
   data() {
-    return {
-      about_data: null
-    };
+    return {};
   },
-  computed() {
-    this.about_data = this.$store.getters("aboutDataGetters");
+  computed: {
+    ...mapGetters({
+      about_data: "aboutDataGetters"
+    })
   }
 };
 </script>
