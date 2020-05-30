@@ -28,7 +28,7 @@ const store = new Vuex.Store({
             return state.aboutData;
         },
         activitiesGetters(state) {
-            return state.activitys
+            return state.activities
         }
     },
     mutations: {},

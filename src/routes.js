@@ -1,5 +1,6 @@
 import About from "./views/About"
 import FirstAIConf from "./views/FirstAIConf"
+import Activities from "./views/Activities"
 
 const routes = [{
     path: '/about',
@@ -10,6 +11,12 @@ const routes = [{
     path: '/FirstAIConf',
     component: FirstAIConf,
     name: 'firstAiConf'
-}]
+},
+{
+    path: '/Activities',
+    component: Activities,
+    name: 'activities'
+}
+]
 
 export default routes;
