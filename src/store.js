@@ -21,7 +21,65 @@ const store = new Vuex.Store({
                 title: "Sosyal Etkinliklerimiz",
                 data: ["Kadınlar Günü", "Kitap Okuma ve Tartışma", "Tanışma Kahvaltısı", "PFutbol Turnuvası"]
             },
-        ]
+        ],
+        sessionsData: [
+            {
+                number: "1.Oturum",
+                title: "YAPAY ZEKA VE GELECEK",
+                speakersData: [{
+                    name: "Buğra Ayan",
+                    profession: "Bilişim uzmanı-Yazar",
+                    headline: "İlhamın Matematiği: Yapay Zeka ile İlhamın Matematiğini Çözebilir Miyiz?",
+                    imgSrc: "../assets/bugra_ayan_profile.jpg",
+                    address: "https://www.linkedin.com/in/bugraayan"
+                },
+                {
+                    name: "Batuhan Bardak",
+                    profession: "STM-Yapay Zeka Uzmanı",
+                    headline: "Yapay Zeka ve Gelecek Öngörüleri",
+                    imgSrc: "../assets/batuhan_bardak_profile2.jpg",
+                    address: "https://tr.linkedin.com/in/batuhanbardak"
+                },
+                {
+                    name: "Dr.Berker Loğoğlu",
+                    profession: "Kuartis-Makine Öğrenmesi Grup Yöneticisi",
+                    headline: "Otonom Araçlarda Yapay Zeka",
+                    imgSrc: "../assets/berker_logoglu.jpg",
+                    address: "https://www.linkedin.com/in/berkerlogoglu"
+                }]
+            },
+            {
+                number: "2.Oturum",
+                title: "YAPAY ZEKA VE SAĞLIK",
+                speakersData: [{
+                    name: "Doç.Dr. Murat Ceylan",
+                    profession: "Yazgit-Akademik Danışman",
+                    headline: "Açılış Konuşması",
+                    imgSrc: "../assets/murat_ceylan.jpg",
+                    address: "http://ktun.edu.tr/PersonelBilgi/Index/MjgyMTAwNjAwMTA="
+                },
+                {
+                    name: "Prof.Dr. Melih Bulut",
+                    profession: "Sağlıkta İşbirliği Platformu-Kurucu",
+                    headline: "Yapay Zeka Tıbbı Dönüştürebilir Mi?",
+                    imgSrc: "../assets/melih_bulut.jpg",
+                    address: "https://tr.linkedin.com/in/melih-bulut-b882a3157"
+                },
+                {
+                    name: "Selin Arslanhan",
+                    profession: "ReDis Innovation-Kurucu",
+                    headline: "Yapay Zeka ve Biyogirişimcilikte Küresel Eğilimler",
+                    imgSrc: "../assets/selin_arslanhan.jpg",
+                    address: "https://twitter.com/selinarslanhan"
+                },
+                {
+                    name: "Elçin Tuncer",
+                    profession: "PortalGrup Healthcare-Kurucu",
+                    headline: "Yapay Zeka ve Yeni Dünya",
+                    imgSrc: "../assets/elcin_profile.jpg",
+                    address: "https://www.linkedin.com/in/elcintuncer"
+                }]
+            }],
     },
     getters: {
         aboutDataGetters(state) {
