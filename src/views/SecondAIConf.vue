@@ -26,6 +26,17 @@
     <!-- Conference sessions flow Component -->
     <ConferenceFlow></ConferenceFlow>
     <!-- End of Conference sessions flow Component -->
+
+    <!-- Sponsors Content -->
+    <div class="sponsors">
+      <h2>Sponsorlarımız</h2>
+      <img class="sponsor-img" src="../assets/logos/aivision.png" alt />
+      <img width="200px" src="../assets/logos/kso.png" alt />
+      <img width="200px" src="../assets/logos/elfatek.jpg" alt />
+      <img width="140px" src="../assets/logos/kto.png" alt />
+      <img width="140px" src="../assets/logos/ktun.png" alt />
+    </div>
+    <!-- End of Sponsors Content -->
   </div>
 </template>
 
@@ -80,5 +91,17 @@ a {
   margin-top: 100px;
   font-family: "Teko";
   text-align: center;
+}
+.sponsors {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Teko";
+}
+.sponsors > * {
+  padding: 10px 10px 10px 20px;
+}
+.sponsor-img {
+  width: 100px;
+  height: auto;
 }
 </style>
