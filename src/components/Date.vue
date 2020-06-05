@@ -46,5 +46,10 @@ export default {
 }
 .time {
   width: 50vw;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100;
 }
 </style>
