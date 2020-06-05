@@ -1,11 +1,9 @@
 <template>
   <div class="date">
-    <img class="date" src="../assets/icons/tarih.svg" width="200" alt />
+    <img src="../assets/icons/tarih.svg" width="200" alt />
     <p>MART</p>
     <div class="time">
-      <no-ssr>
-        <flip-countdown class="count" deadline="2020-03-19 00:00:00"></flip-countdown>
-      </no-ssr>
+      <flip-countdown class="count" deadline="2020-03-19 00:00:00"></flip-countdown>
     </div>
     <p class="free">
       Konferansımız
