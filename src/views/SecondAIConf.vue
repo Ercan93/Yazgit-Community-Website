@@ -1,26 +1,13 @@
 <template>
   <div class="container">
     <!-- Date component -->
-    <div class="date">
-      <img class="date" src="../assets/icons/tarih.svg" width="200" alt />
-      <p>MART</p>
-      <div class="time">
-        <no-ssr>
-          <flip-countdown class="count" deadline="2020-03-19 00:00:00"></flip-countdown>
-        </no-ssr>
-      </div>
-      <p class="free">
-        Konferansımız
-        <br />Ücretsizdir
-      </p>
-      <div class="glitch">
-        <VueTextGlitch class="heading" text="2. YAPAY ZEKA"></VueTextGlitch>
-        <br />
-        <VueTextGlitch class="heading" text=" BULUŞMALARI"></VueTextGlitch>
-      </div>
-    </div>
+    <Date></Date>
     <!-- End of Date component -->
-
+    <div class="glitch">
+      <VueTextGlitch class="heading" text="2. YAPAY ZEKA"></VueTextGlitch>
+      <br />
+      <VueTextGlitch class="heading" text=" BULUŞMALARI"></VueTextGlitch>
+    </div>
     <!-- Session content -->
     <div v-for="session in sessionsData" class="session">
       <h2 class="session-heading">
@@ -48,12 +35,14 @@ import VueTextGlitch from "vue-text-glitch";
 import FlipCountdown from "vue2-flip-countdown";
 import ConferenceFlow from "../components/ConferenceFlow";
 import Card from "../components/Card";
+import Date from "../components/Date";
 export default {
   components: {
     VueTextGlitch,
     FlipCountdown,
     ConferenceFlow,
-    Card
+    Card,
+    Date
   },
   computed: {
     ...mapState(["sessionsData"])
