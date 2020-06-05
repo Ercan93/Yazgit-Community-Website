@@ -30,15 +30,7 @@
       </h2>
       <div class="cards">
         <!-- Card Component -->
-        <div v-for="speaker in session.speakersData" class="card">
-          <div class="speaker">
-            <a :href="`${speaker.address}`" target="blank"></a>
-            <img :src="`${speaker.imgSrc}`" />
-            <p class="speaker-name">{{speaker.name}}</p>
-            <p class="speaker-profession">{{speaker.profession}}</p>
-          </div>
-          <p class="title">{{session.title}}</p>
-        </div>
+        <Card :speakersData="session.speakersData"></Card>
         <!-- End of Card Component -->
       </div>
     </div>
@@ -55,11 +47,13 @@ import { mapState } from "vuex";
 import VueTextGlitch from "vue-text-glitch";
 import FlipCountdown from "vue2-flip-countdown";
 import ConferenceFlow from "../components/ConferenceFlow";
+import Card from "../components/Card";
 export default {
   components: {
     VueTextGlitch,
     FlipCountdown,
-    ConferenceFlow
+    ConferenceFlow,
+    Card
   },
   computed: {
     ...mapState(["sessionsData"])
