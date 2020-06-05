@@ -1,9 +1,11 @@
 <template>
   <header class="wrapper">
-    <div class="header-left">
-      <img width="70" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
-      <a class="logoName">YAZGİT</a>
-    </div>
+    <router-link to="/">
+      <div class="header-left">
+        <img width="70" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
+        <a class="logoName">YAZGİT</a>
+      </div>
+    </router-link>
     <div class="header-right">
       <router-link class="nav-button" to="/FirstAIConf">
         <a>1.Yapay Zeka Buluşmaları</a>
