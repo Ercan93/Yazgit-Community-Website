@@ -24,12 +24,13 @@
     <!-- Session content -->
     <div v-for="session in sessionsData" class="session">
       <h2 class="session-heading">
-        session.number
-        <br />session.title
+        {{session.number}}
+        <br />
+        {{session.title}}
       </h2>
       <div class="cards">
         <!-- Card Component -->
-        <div v-for="speaker in speakersData" class="card">
+        <div v-for="speaker in session.speakersData" class="card">
           <div class="speaker">
             <a :href="`${speaker.address}`" target="blank"></a>
             <img :src="`${speaker.imgSrc}`" />
