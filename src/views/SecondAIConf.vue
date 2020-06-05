@@ -50,6 +50,13 @@ export default {
 };
 </script>
 <style scoped>
+* {
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 .container {
   height: 100%;
   display: flex;
