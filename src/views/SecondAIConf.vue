@@ -49,3 +49,31 @@ export default {
   }
 };
 </script>
+<style scoped>
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/background.svg");
+  background-size: 100vw;
+}
+.glitch {
+  font-family: Righteous;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.heading {
+  margin-top: 30px;
+  font-size: 80px;
+  margin-bottom: -35px;
+}
+.session-heading {
+  font-size: 40px;
+  margin-top: 100px;
+  font-family: "Teko";
+  text-align: center;
+}
+</style>
