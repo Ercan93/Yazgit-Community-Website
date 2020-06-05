@@ -43,6 +43,10 @@
       </div>
     </div>
     <!-- End of Session content -->
+
+    <!-- Conference sessions flow Component -->
+    <ConferenceFlow></ConferenceFlow>
+    <!-- End of Conference sessions flow Component -->
   </div>
 </template>
 
@@ -50,10 +54,12 @@
 import { mapState } from "vuex";
 import VueTextGlitch from "vue-text-glitch";
 import FlipCountdown from "vue2-flip-countdown";
+import ConferenceFlow from "../components/ConferenceFlow";
 export default {
   components: {
     VueTextGlitch,
-    FlipCountdown
+    FlipCountdown,
+    ConferenceFlow
   },
   computed: {
     ...mapState(["sessionsData"])

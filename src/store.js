@@ -80,6 +80,14 @@ const store = new Vuex.Store({
                     address: "https://www.linkedin.com/in/elcintuncer"
                 }]
             }],
+        conferenceSessionsFlow: [{
+            title: "1. Oturum Yapay Zeka ve Gelecek",
+            sessions: ["8:30 - 9:30 Kayıt", "9:30 - 10:15 Açılış Konuşmaları", "10:15 - 11:00 Buğra Ayan -İlhamın Matematiği, Yapay Zeka ile İlhamın Matematiğini Çözebilir Miyiz ?", "11:00 - 11:15 Kahve arası", "11:15 - 12:00 Batuhan Bardak - Yapay Zeka ve Gelecek Öngörüleri", "12:00 - 12:45 Dr. Berker Loğoğlu - Otonom Araçlarda Yapay Zeka", "12:45 - 14:00 Öğle Arası"]
+        },
+        {
+            title: "2.Oturum: Yapay Zeka ve Sağlık",
+            sessions: ["14:00 - 14:15 Doç.Dr. Murat Ceylan - Açılış Konuşması", "14:15 - 15:00 Prof.Dr. Melih Bulut - Yapay Zeka Tıbbı Dönüştürebilir Mi?", "15:00 - 15:15 Kahve Arası", "15:15 - 16:00 Selin Arslanhan - Yapay Zeka ve Biyogirişimcilikte Küresel Eğilimler", "16:00 - 16:45 Elçin Tunçer", "16:45 - 17:00 Kapanış"]
+        }]
     },
     getters: {
         aboutDataGetters(state) {
