@@ -32,14 +32,12 @@
 <script>
 import { mapState } from "vuex";
 import VueTextGlitch from "vue-text-glitch";
-import FlipCountdown from "vue2-flip-countdown";
 import ConferenceFlow from "../components/ConferenceFlow";
 import Card from "../components/Card";
 import Date from "../components/Date";
 export default {
   components: {
     VueTextGlitch,
-    FlipCountdown,
     ConferenceFlow,
     Card,
     Date

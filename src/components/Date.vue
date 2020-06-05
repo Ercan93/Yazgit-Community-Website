@@ -11,6 +11,12 @@
     </p>
   </div>
 </template>
+<script>
+import FlipCountdown from "vue2-flip-countdown";
+export default {
+  components: { FlipCountdown }
+};
+</script>
 <style scoped>
 .date {
   display: flex;
