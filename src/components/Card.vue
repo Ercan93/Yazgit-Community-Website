@@ -52,4 +52,13 @@ export default {
   border-radius: 15px;
   border: 4px solid #004257;
 }
+.title {
+  width: 50vw;
+  font-size: 4vw;
+  font-family: "Teko";
+  font-weight: bold;
+  text-align: center;
+  margin-right: auto;
+  margin-left: 20px;
+}
 </style>

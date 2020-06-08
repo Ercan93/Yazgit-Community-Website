@@ -92,6 +92,13 @@ a {
   font-family: "Teko";
   text-align: center;
 }
+.cards {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .sponsors {
   background-color: rgb(255, 255, 255);
   text-align: center;
