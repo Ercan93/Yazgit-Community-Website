@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style >
 @import url("https://fonts.googleapis.com/css?family=Teko:700&display=swap&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap&subset=latin-ext");

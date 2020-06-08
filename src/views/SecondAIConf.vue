@@ -89,8 +89,9 @@ a {
 .session-heading {
   font-size: 40px;
   margin-top: 100px;
-  font-family: "Teko";
+  font-family: "Righteous";
   text-align: center;
+  color: rgb(95, 11, 11);
 }
 .cards {
   width: 95vw;
