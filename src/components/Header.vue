@@ -55,4 +55,9 @@ a {
   font-size: 20px;
   margin-right: 40px;
 }
+.nav-button:hover {
+  background-color: rgba(0, 114, 180, 0.39);
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+}
 </style>
