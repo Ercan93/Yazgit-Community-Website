@@ -1,7 +1,8 @@
 <template>
   <div class="date">
+    <p class="warning">Konferansımız Pandemi sebebiyle iptal edilmiştir.</p>
     <img src="../assets/icons/tarih.svg" width="200" alt />
-    <p>MART</p>
+    <p class="month">MART</p>
     <div class="time">
       <flip-countdown class="count" deadline="2020-03-19 00:00:00"></flip-countdown>
     </div>
@@ -18,6 +19,17 @@ export default {
 };
 </script>
 <style scoped>
+.warning {
+  color: white;
+  background-color: darkred;
+  font-family: "Merriweather";
+  text-align: center;
+  margin: 30px 0 60px 0;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 7px;
+}
 .date {
   display: flex;
   flex-direction: column;
@@ -32,7 +44,7 @@ export default {
   align-self: center;
   margin-top: 60px;
 }
-.date p {
+.month {
   font-size: 60px;
   color: #004257;
   font-family: Righteous;
