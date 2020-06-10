@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.5.11",
+    "vue-burger-menu": "^2.0.5",
     "vue-router": "^3.3.1",
     "vue-text-glitch": "^1.0.0",
     "vue2-flip-countdown": "^0.9.3",
