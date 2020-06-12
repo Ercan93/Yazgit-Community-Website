@@ -12,20 +12,6 @@
       </router-link>
     </div>
     <div class="footer-center">
-      <div class="social-media">
-        <a href="https://twitter.com/yaz_git" target="_blank">
-          <img src="../assets/icons/Twitter.svg" width="50px" alt />
-          <p>Yaz_git</p>
-        </a>
-        <a href="https://www.instagram.com/yaz_git/" target="_blank">
-          <img src="../assets/icons/Instagram.svg" width="50px" alt />
-          <p>Yaz_git</p>
-        </a>
-        <a>
-          <img src="../assets/icons/Mail.svg" width="50px" alt />
-          <p>yazgit2018@gmail.com</p>
-        </a>
-      </div>
       <img width="20px" src="../assets/icons/Code.svg" />
       &nbsp;
       {{author}}
