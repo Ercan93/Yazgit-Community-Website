@@ -2,13 +2,15 @@
   <div>
     <nav-header></nav-header>
     <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import navHeader from "./components/Header";
+import Footer from "./components/Footer";
 export default {
-  components: { navHeader },
+  components: { navHeader, Footer },
   data() {
     return {};
   }
