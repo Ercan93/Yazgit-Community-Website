@@ -2,25 +2,14 @@
   <div class="container">
     <h1 class="about-heading">Hakkımızda</h1>
     <p class="about-text">{{about_data}}</p>
-    <div class="social-media">
-      <a href="https://twitter.com/yaz_git" target="_blank">
-        <img src="../assets/icons/Twitter.svg" width="50px" alt />
-        <p>Yaz_git</p>
-      </a>
-      <a href="https://www.instagram.com/yaz_git/" target="_blank">
-        <img src="../assets/icons/Instagram.svg" width="50px" alt />
-        <p>Yaz_git</p>
-      </a>
-      <a>
-        <img src="../assets/icons/Mail.svg" width="50px" alt />
-        <p>yazgit2018@gmail.com</p>
-      </a>
-    </div>
+    <social-media></social-media>
   </div>
 </template>
 <script>
 import { mapGetters } from "vuex";
+import socialMedia from "../components/common/SocialMedia";
 export default {
+  components: { socialMedia },
   data() {
     return {};
   },
@@ -42,20 +31,6 @@ export default {
 }
 .about-heading {
   margin-top: 40px;
-}
-.social-media {
-  display: flex;
-  margin-bottom: 20px;
-}
-.social-media > a {
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
-.social-media > a > p {
-  margin-left: 10px;
 }
 .about-text {
   padding: 44px 100px 50px 100px;
