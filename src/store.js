@@ -87,6 +87,21 @@ const store = new Vuex.Store({
         {
             title: "2.Oturum: Yapay Zeka ve Sağlık",
             sessions: ["14:00 - 14:15 Doç.Dr. Murat Ceylan - Açılış Konuşması", "14:15 - 15:00 Prof.Dr. Melih Bulut - Yapay Zeka Tıbbı Dönüştürebilir Mi?", "15:00 - 15:15 Kahve Arası", "15:15 - 16:00 Selin Arslanhan - Yapay Zeka ve Biyogirişimcilikte Küresel Eğilimler", "16:00 - 16:45 Elçin Tunçer", "16:45 - 17:00 Kapanış"]
+        }],
+        socialMediaAcc: [{
+            title: "Twitter",
+            href: "https://twitter.com/yaz_git",
+            AccName: "Yaz_git"
+        },
+        {
+            title: "Instagram",
+            href: "https://www.instagram.com/yaz_git/",
+            AccName: "Yaz_git"
+        },
+        {
+            title: "Mail",
+            href: "",
+            AccName: "yazgit2018@gmail.com"
         }]
     },
     getters: {
@@ -95,6 +110,9 @@ const store = new Vuex.Store({
         },
         activitiesGetters(state) {
             return state.activities
+        },
+        socialMediaAccGetters(state) {
+            return state.socialMediaAcc
         }
     },
     mutations: {},
