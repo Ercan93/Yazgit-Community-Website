@@ -1,7 +1,14 @@
 <template>
   <footer>
     <div class="footer-left">
-      <nav-router-link></nav-router-link>
+      <div class="logo">
+        <img width="130" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
+        <p id="logo-name">
+          Yapay Zeka ve Görüntü
+          <br />İşleme Topluluğu Konya
+        </p>
+      </div>
+      <nav-router-link class="nav-buttons"></nav-router-link>
     </div>
     <div class="footer-center">
       <img width="20px" src="../assets/icons/Code.svg" />
@@ -12,9 +19,9 @@
     <div class="footer-right">
       <a
         class="twitter-timeline"
-        data-height="300"
+        data-height="360"
         data-width="320"
-        data-dnt="true"
+        data-dnt="false"
         href="https://twitter.com/yaz_git?ref_src=twsrc%5Etfw"
       >Tweets by yaz_git</a>
     </div>
@@ -35,9 +42,26 @@ export default {
 footer {
   font-family: "Merriweather";
   width: 100%;
-  height: 320px;
+  height: 60vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-color: #00203b;
+  color: white;
+}
+.footer-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+#logo-name {
+  font-size: 30px;
+  margin-left: 30px;
 }
 </style>

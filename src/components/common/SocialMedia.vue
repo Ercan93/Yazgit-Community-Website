@@ -28,7 +28,7 @@ export default {
   justify-content: center;
   margin-bottom: 20px;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 a {
   text-decoration: none;
