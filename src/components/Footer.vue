@@ -1,15 +1,7 @@
 <template>
   <footer>
     <div class="footer-left">
-      <router-link class="nav-button" to="/FirstAIConf">
-        <a>1.Yapay Zeka Buluşmaları</a>
-      </router-link>
-      <router-link class="nav-button" to="/Activities">
-        <a>Etkinliklerimiz</a>
-      </router-link>
-      <router-link class="nav-button" to="About">
-        <a>Hakkımızda</a>
-      </router-link>
+      <nav-router-link></nav-router-link>
     </div>
     <div class="footer-center">
       <img width="20px" src="../assets/icons/Code.svg" />
@@ -29,7 +21,9 @@
   </footer>
 </template>
 <script>
+import navRouterLink from "../components/common/NavRouterLink";
 export default {
+  components: { navRouterLink },
   data() {
     return {
       author: "by Ercan Uzunsakal"
