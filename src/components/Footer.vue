@@ -21,7 +21,7 @@
   </footer>
 </template>
 <script>
-import navRouterLink from "../components/common/NavRouterLink";
+import navRouterLink from "./common/NavRouterLink";
 export default {
   components: { navRouterLink },
   data() {

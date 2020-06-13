@@ -7,19 +7,16 @@
       </div>
     </router-link>
     <div class="header-right">
-      <router-link class="nav-button" to="/FirstAIConf">
-        <a>1.Yapay Zeka Buluşmaları</a>
-      </router-link>
-      <router-link class="nav-button" to="/Activities">
-        <a>Etkinliklerimiz</a>
-      </router-link>
-      <router-link class="nav-button" to="About">
-        <a>Hakkımızda</a>
-      </router-link>
+      <nav-router-link></nav-router-link>
     </div>
   </header>
 </template>
-
+<script>
+import navRouterLink from "./common/NavRouterLink";
+export default {
+  components: { navRouterLink }
+};
+</script>
 <style scoped>
 .wrapper {
   background: #004257;
@@ -47,17 +44,5 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-}
-
-.nav-button {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  margin-right: 40px;
-}
-.nav-button:hover {
-  background-color: rgba(0, 114, 180, 0.39);
-  padding: 10px 5px 10px 5px;
-  border-radius: 10px;
 }
 </style>
