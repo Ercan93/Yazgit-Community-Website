@@ -22,7 +22,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  height: 85vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

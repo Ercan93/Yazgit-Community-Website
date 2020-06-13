@@ -23,8 +23,12 @@ export default {
 </script>
 <style scoped>
 .social-media {
+  padding: 10px 0 10px 0;
   display: flex;
+  justify-content: center;
   margin-bottom: 20px;
+  background-color: white;
+  border-radius: 4px;
 }
 a {
   text-decoration: none;
