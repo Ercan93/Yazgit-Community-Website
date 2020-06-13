@@ -1,6 +1,7 @@
 <template>
   <footer>
     <div class="footer-left">
+      <!-- Community Logo and Name -->
       <div class="logo">
         <img width="130" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
         <p id="logo-name">
@@ -8,8 +9,10 @@
           <br />İşleme Topluluğu Konya
         </p>
       </div>
+      <!-- Router buttons -->
       <nav-router-link class="nav-buttons"></nav-router-link>
     </div>
+    <!-- Author Name -->
     <div class="footer-center">
       <img width="20px" src="../assets/icons/Code.svg" />
       &nbsp;
@@ -59,6 +62,7 @@ footer {
   display: flex;
   justify-content: baseline;
   align-items: center;
+  opacity: 0.8;
 }
 #logo-name {
   font-size: 30px;
