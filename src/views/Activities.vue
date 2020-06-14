@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <h1 class="heading">Etkinliklerimiz</h1>
-    <div class="wrapper">
+    <section class="wrapper">
       <div v-for="activity in activities" class="boxs">
         <h2>{{activity.title}}</h2>
         <p v-for="activityName in activity.data">{{activityName}}</p>
         <br />
       </div>
-    </div>
+    </section>
   </div>
 </template>
 

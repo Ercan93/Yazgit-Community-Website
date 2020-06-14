@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <main>
     <app-header></app-header>
     <router-view></router-view>
     <app-footer></app-footer>
-  </div>
+  </main>
 </template>
 
 <script>

@@ -1,15 +1,15 @@
 <template>
-  <div class="container">
+  <section class="container">
     <!-- Date component -->
     <Date></Date>
     <!-- End of Date component -->
-    <div class="glitch">
+    <article class="glitch">
       <VueTextGlitch class="heading" text="2. YAPAY ZEKA"></VueTextGlitch>
       <br />
       <VueTextGlitch class="heading" text=" BULUŞMALARI"></VueTextGlitch>
-    </div>
+    </article>
     <!-- Session content -->
-    <div v-for="session in sessionsData" class="session">
+    <article v-for="session in sessionsData" class="session">
       <h2 class="session-heading">
         {{session.number}}
         <br />
@@ -20,7 +20,7 @@
         <Card :speakersData="session.speakersData"></Card>
         <!-- End of Card Component -->
       </div>
-    </div>
+    </article>
     <!-- End of Session content -->
 
     <!-- Conference sessions flow Component -->
@@ -37,7 +37,7 @@
       <img width="140px" src="../assets/logos/ktun.png" alt />
     </div>
     <!-- End of Sponsors Content -->
-  </div>
+  </section>
 </template>
 
 <script>
