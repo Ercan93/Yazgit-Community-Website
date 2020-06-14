@@ -24,7 +24,7 @@
         class="twitter-timeline"
         data-height="360"
         data-width="320"
-        data-dnt="false"
+        data-theme="dark"
         href="https://twitter.com/yaz_git?ref_src=twsrc%5Etfw"
       >Tweets by yaz_git</a>
     </div>
@@ -51,6 +51,9 @@ footer {
   align-items: center;
   background-color: #00203b;
   color: white;
+}
+.footer-center {
+  display: flex;
 }
 .footer-left {
   height: 100%;
