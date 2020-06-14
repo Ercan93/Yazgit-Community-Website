@@ -1,16 +1,16 @@
 <template>
   <div>
-    <nav-header></nav-header>
+    <app-header></app-header>
     <router-view></router-view>
-    <Footer></Footer>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-import navHeader from "./components/Header";
-import Footer from "./components/Footer";
+import appHeader from "./components/layout/AppHeader";
+import appFooter from "./components/layout/AppFooter";
 export default {
-  components: { navHeader, Footer },
+  components: { appHeader, appFooter },
   data() {
     return {};
   }
