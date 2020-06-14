@@ -30,11 +30,11 @@
     <!-- Sponsors Content -->
     <div class="sponsors">
       <h2>Sponsorlarımız</h2>
-      <img class="sponsor-img" src="../assets/logos/aivision.png" alt />
-      <img width="200px" src="../assets/logos/kso.png" alt />
-      <img width="200px" src="../assets/logos/elfatek.jpg" alt />
-      <img width="140px" src="../assets/logos/kto.png" alt />
-      <img width="140px" src="../assets/logos/ktun.png" alt />
+      <img class="sponsor-img" src="../assets/logos/aivision.png" alt="Aivision sirketi logo" />
+      <img width="200px" src="../assets/logos/kso.png" alt="Konya sanayi odasi logo" />
+      <img width="200px" src="../assets/logos/elfatek.jpg" alt="Elfatek sirket logo" />
+      <img width="140px" src="../assets/logos/kto.png" alt="Konya ticaret odasi logo" />
+      <img width="140px" src="../assets/logos/ktun.png" alt="Konya teknik üniversitesi logo" />
     </div>
     <!-- End of Sponsors Content -->
   </section>

@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <h1>1.Yapay Zeka Buluşmalarından Görüntüler</h1>
-    <img v-for="number in 13" v-bind:src="`${photos_path}${number}).jpg`" />
+    <img
+      v-for="number in 13"
+      v-bind:src="`${photos_path}${number}).jpg`"
+      alt="Birinci yapay zeka bulusmalari konya 2018"
+    />
   </div>
 </template>
 <script>

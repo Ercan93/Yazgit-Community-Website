@@ -3,7 +3,12 @@
     <div class="footer-left">
       <!-- Community Logo and Name -->
       <div class="logo">
-        <img width="130" class="logo" src="../../assets/logos/yazgit_logo.svg" alt />
+        <img
+          width="130"
+          class="logo"
+          src="../../assets/logos/yazgit_logo.svg"
+          alt="Konya yapay zeka ve görüntü isleme toplulugu logo"
+        />
         <p id="logo-name">
           Yapay Zeka ve Görüntü
           <br />İşleme Topluluğu Konya
