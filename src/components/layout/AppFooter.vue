@@ -3,7 +3,7 @@
     <div class="footer-left">
       <!-- Community Logo and Name -->
       <div class="logo">
-        <img width="130" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
+        <img width="130" class="logo" src="../../assets/logos/yazgit_logo.svg" alt />
         <p id="logo-name">
           Yapay Zeka ve Görüntü
           <br />İşleme Topluluğu Konya
@@ -14,9 +14,9 @@
     </div>
     <!-- Author Name -->
     <div class="footer-center">
-      <img width="20px" src="../assets/icons/Code.svg" />
+      <img width="20px" src="../../assets/icons/Code.svg" />
       &nbsp;
-      {{author}}
+      <a href="https://github.com/Ercan93" target="_blank">{{author}}</a>
     </div>
     <!--Yazgit tweets content -->
     <div class="footer-right">
@@ -31,7 +31,7 @@
   </footer>
 </template>
 <script>
-import navRouterLink from "./common/NavRouterLink";
+import navRouterLink from "../common/NavRouterLink";
 export default {
   components: { navRouterLink },
   data() {
@@ -54,6 +54,10 @@ footer {
 }
 .footer-center {
   display: flex;
+}
+.footer-center > a {
+  text-decoration: none;
+  color: white;
 }
 .footer-left {
   height: 100%;

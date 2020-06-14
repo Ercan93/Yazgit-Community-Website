@@ -2,7 +2,7 @@
   <header class="wrapper">
     <router-link to="/">
       <div class="header-left">
-        <img width="70" class="logo" src="../assets/logos/yazgit_logo.svg" alt />
+        <img width="70" class="logo" src="../../assets/logos/yazgit_logo.svg" alt />
         <a class="logoName">YAZGİT</a>
       </div>
     </router-link>
@@ -12,7 +12,7 @@
   </header>
 </template>
 <script>
-import navRouterLink from "./common/NavRouterLink";
+import navRouterLink from "../common/NavRouterLink";
 export default {
   components: { navRouterLink }
 };
