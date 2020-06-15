@@ -5,7 +5,13 @@ import routes from './routes'
 import store from './store'
 
 Vue.use(VueRouter)
-const router = new VueRouter({ routes, mode: 'history' })
+const router = new VueRouter({
+    routes,
+    mode: 'history',
+    scrollBehavior() {
+        window.scrollTo(0, 0);
+    }
+})
 
 new Vue({
     el: '#app',
