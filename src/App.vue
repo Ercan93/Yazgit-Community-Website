@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import appHeader from "./components/layout/AppHeader";
-import appFooter from "./components/layout/AppFooter";
+import AppHeader from "./components/layout/AppHeader";
+import AppFooter from "./components/layout/AppFooter";
 export default {
-  components: { appHeader, appFooter },
+  components: { AppHeader, AppFooter },
   data() {
     return {};
   }

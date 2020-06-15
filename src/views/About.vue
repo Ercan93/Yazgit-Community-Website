@@ -7,9 +7,9 @@
 </template>
 <script>
 import { mapGetters } from "vuex";
-import socialMedia from "../components/common/SocialMedia";
+import SocialMedia from "../components/common/SocialMedia";
 export default {
-  components: { socialMedia },
+  components: { SocialMedia },
   data() {
     return {};
   },
