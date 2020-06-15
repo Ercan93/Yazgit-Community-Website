@@ -11,15 +11,19 @@
         <a class="logoName">YAZGİT</a>
       </div>
     </router-link>
-    <div class="header-right">
-      <nav-router-link></nav-router-link>
-    </div>
+
+    <Slide right :closeOnNavigation="true">
+      <div class="header-right">
+        <nav-router-link class="buttons"></nav-router-link>
+      </div>
+    </Slide>
   </header>
 </template>
 <script>
-import navRouterLink from "../common/NavRouterLink";
+import NavRouterLink from "../common/NavRouterLink";
+import { Slide } from "vue-burger-menu";
 export default {
-  components: { navRouterLink }
+  components: { NavRouterLink, Slide }
 };
 </script>
 <style scoped>
@@ -35,8 +39,10 @@ export default {
 a {
   text-decoration: none;
 }
-.header-right {
-  margin-left: auto;
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
 }
 .header-left {
   margin-left: 20px;
@@ -49,5 +55,8 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+}
+.bm-burger-bars {
+  background-color: #ffffff;
 }
 </style>

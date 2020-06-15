@@ -18,7 +18,7 @@
   color: white;
   font-size: 20px;
   margin-right: 40px;
-  padding: 10px 5px 10px 5px;
+  padding: 15px 5px 15px 5px;
 }
 .nav-button:hover {
   background-color: rgba(0, 114, 180, 0.39);
