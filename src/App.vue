@@ -1,8 +1,8 @@
 <template>
   <main>
-    <app-header></app-header>
+    <app-header v-show="this.$route.name!='PageNotFound'"></app-header>
     <router-view></router-view>
-    <app-footer></app-footer>
+    <app-footer v-show="this.$route.name!='PageNotFound'"></app-footer>
   </main>
 </template>
 
