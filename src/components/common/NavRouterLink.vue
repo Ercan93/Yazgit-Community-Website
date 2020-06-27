@@ -31,4 +31,10 @@
 
   border-radius: 10px;
 }
+@media screen and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
 </style>

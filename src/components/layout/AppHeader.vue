@@ -40,7 +40,7 @@ a {
   margin-left: auto;
 }
 .header-left {
-  margin-left: 20px;
+  margin-left: 30px;
   display: flex;
   align-items: center;
 }
@@ -51,7 +51,15 @@ a {
   text-decoration: none;
   color: white;
 }
-.bm-burger-bars {
-  background-color: #ffffff;
+@media screen and (max-width: 720px) {
+  .wrapper {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header-left {
+    padding-top: 20px;
+    margin-left: 0;
+  }
 }
 </style>
