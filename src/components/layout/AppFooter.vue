@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <div class="footer-left">
       <!-- Community Logo and Name -->
       <div class="logo">
@@ -47,10 +47,11 @@ export default {
 };
 </script>
 <style scoped>
-footer {
+.footer {
   font-family: "Merriweather";
   width: 100%;
-  height: 60vh;
+  height: 100%;
+  padding: 20px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,19 +66,37 @@ footer {
   color: white;
 }
 .footer-left {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
-  justify-content: baseline;
+  justify-content: first baseline;
   align-items: center;
   opacity: 0.8;
+  margin-bottom: 30px;
 }
 #logo-name {
-  font-size: 30px;
+  font-size: 1.5rem;
   margin-left: 30px;
+}
+@media only screen and (max-width: 790px) {
+  .footer {
+    flex-flow: column-reverse wrap;
+    align-items: center;
+  }
+  .footer > * {
+    margin-top: 40px;
+  }
+  .footer-left {
+    align-items: center;
+  }
+  .footer-left > * {
+    margin-top: 20px;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
 }
 </style>
