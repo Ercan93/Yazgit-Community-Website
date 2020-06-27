@@ -24,6 +24,7 @@ export default {
   border-radius: 20px;
   box-shadow: 3px 3px 10px hsla(221, 100%, 50%, 0.356);
   padding-bottom: 40px;
+  width: 75vw;
 }
 * {
   margin-top: 30px;

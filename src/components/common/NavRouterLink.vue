@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navs">
     <router-link class="nav-button" to="/FirstAIConf">
       <a>1.Yapay Zeka Buluşmaları</a>
     </router-link>
@@ -13,6 +13,12 @@
 </template>
 
 <style scoped>
+.navs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+}
 .nav-button {
   text-decoration: none;
   color: white;

@@ -15,11 +15,9 @@
         <br />
         {{session.title}}
       </h2>
-      <div class="cards">
-        <!-- Card Component -->
-        <Card :speakersData="session.speakersData"></Card>
-        <!-- End of Card Component -->
-      </div>
+      <!-- Card Component -->
+      <Card class="cards" :speakersData="session.speakersData"></Card>
+      <!-- End of Card Component -->
     </article>
     <!-- End of Session content -->
 
@@ -83,12 +81,12 @@ a {
 }
 .heading {
   margin-top: 30px;
-  font-size: 80px;
+  font-size: 10vw;
   margin-bottom: -35px;
 }
 .session-heading {
   font-size: 40px;
-  margin-top: 100px;
+  margin-top: 150px;
   font-family: "Righteous";
   text-align: center;
   color: rgb(95, 11, 11);
@@ -109,6 +107,7 @@ a {
   border-radius: 20px;
   box-shadow: 3px 3px 10px hsla(221, 100%, 50%, 0.356);
   padding: 0 30px;
+  width: calc(75vw - 30px);
 }
 .sponsors > * {
   padding: 10px 15px;
