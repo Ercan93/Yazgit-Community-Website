@@ -12,18 +12,15 @@
       </div>
     </router-link>
 
-    <Slide right :closeOnNavigation="true">
-      <div class="header-right">
-        <nav-router-link class="buttons"></nav-router-link>
-      </div>
-    </Slide>
+    <div class="header-right">
+      <nav-router-link class="buttons"></nav-router-link>
+    </div>
   </header>
 </template>
 <script>
 import NavRouterLink from "../common/NavRouterLink";
-import { Slide } from "vue-burger-menu";
 export default {
-  components: { NavRouterLink, Slide }
+  components: { NavRouterLink }
 };
 </script>
 <style scoped>
@@ -39,10 +36,8 @@ export default {
 a {
   text-decoration: none;
 }
-.buttons {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
+.header-right {
+  margin-left: auto;
 }
 .header-left {
   margin-left: 20px;
