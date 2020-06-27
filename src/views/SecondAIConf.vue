@@ -104,9 +104,14 @@ a {
   background-color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Teko";
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px hsla(221, 100%, 50%, 0.356);
+  padding: 0 30px;
 }
 .sponsors > * {
-  padding: 10px 10px 10px 20px;
+  padding: 10px 15px;
 }
 .sponsor-img {
   width: 100px;

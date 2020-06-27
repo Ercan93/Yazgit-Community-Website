@@ -21,6 +21,9 @@ export default {
   background-color: white;
   font-family: "Merriweather";
   font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px hsla(221, 100%, 50%, 0.356);
+  padding-bottom: 40px;
 }
 * {
   margin-top: 30px;

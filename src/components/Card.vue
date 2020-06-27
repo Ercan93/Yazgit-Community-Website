@@ -35,9 +35,8 @@ export default {
   padding: 40px;
   display: flex;
   align-items: center;
-}
-.card:hover {
-  background-color: hsla(221, 100%, 50%, 0.356);
+  border-radius: 20px;
+  box-shadow: 5px 5px 17px hsla(221, 100%, 50%, 0.356);
 }
 .speaker {
   display: flex;
