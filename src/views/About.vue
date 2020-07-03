@@ -33,9 +33,15 @@ export default {
   margin-top: 40px;
 }
 .about-text {
-  padding: 44px 100px 50px 100px;
+  padding: 50px 50px;
   font-size: 20px;
   line-height: 40px;
   text-align: center;
+}
+@media only screen and (max-width: 720px) {
+  .about-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 </style>

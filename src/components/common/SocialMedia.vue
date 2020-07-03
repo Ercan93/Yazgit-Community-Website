@@ -23,7 +23,7 @@ export default {
 </script>
 <style scoped>
 .social-media {
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -39,5 +39,13 @@ a {
 }
 p {
   margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .social-media {
+    flex-direction: column;
+  }
+  a {
+    padding: 10px 0;
+  }
 }
 </style>
