@@ -1,7 +1,9 @@
 <template>
   <main>
     <app-header v-show="this.$route.name!='PageNotFound'"></app-header>
-    <router-view></router-view>
+    <transition name="fade">
+      <router-view></router-view>
+    </transition>
     <app-footer v-show="this.$route.name!='PageNotFound'"></app-footer>
   </main>
 </template>
@@ -28,5 +30,13 @@ export default {
 }
 .header {
   z-index: 2;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
