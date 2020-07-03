@@ -37,4 +37,14 @@ h1 {
   margin-top: 20px;
   font-family: "Merriweather";
 }
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  img {
+    width: 70vw;
+  }
+}
 </style>
