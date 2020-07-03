@@ -45,7 +45,7 @@ export default {
   margin-left: 10px;
 }
 .speaker-name {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Teko";
 }
 .speaker-profession {
@@ -66,5 +66,16 @@ export default {
   font-weight: bold;
   text-align: center;
   margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .speaker-name {
+    font-size: 20px;
+  }
+  .speaker-profession {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 30px;
+  }
 }
 </style>
