@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="heading">Etkinliklerimiz</h1>
     <section class="wrapper">
-      <div v-for="activity in activities" class="boxs">
+      <div v-for="activity in activities" class="box">
         <h2>{{activity.title}}</h2>
         <p v-for="activityName in activity.data">{{activityName}}</p>
         <br />
@@ -33,15 +33,23 @@ export default {
   display: flex;
   flex-wrap: wrap;
 }
-.boxs > h2 {
+.box > h2 {
   color: darkred;
 }
 .heading {
   margin-top: 30px;
   font-size: 40px;
 }
-.boxs {
+.box {
   width: 45vw;
-  margin-top: 40px;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    justify-content: center;
+  }
+  .box {
+    width: 60vw;
+  }
 }
 </style>
