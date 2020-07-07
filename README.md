@@ -1,7 +1,7 @@
 
 # Yazgit Konya topluluğu websitesi
 
-## Live : yazgit.tech
+## Live : www.yazgit.tech
 
 ## Build Setup
 
