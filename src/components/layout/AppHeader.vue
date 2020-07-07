@@ -5,7 +5,7 @@
         <img
           width="70"
           class="logo"
-          src="../../assets/logos/yazgit_logo.svg"
+          src="static/logos/yazgit_logo.svg"
           alt="Konya yapay zeka ve görüntü isleme toplulugu logo"
         />
         <a class="logoName">YAZGİT</a>

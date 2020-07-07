@@ -1,7 +1,7 @@
 <template>
   <div class="date">
     <p class="warning">Konferansımız Pandemi sebebiyle iptal edilmiştir.</p>
-    <img src="../assets/icons/tarih.svg" width="200" alt />
+    <img src="static/icons/tarih.svg" width="200" alt />
     <p class="month">MART</p>
     <div class="time">
       <flip-countdown class="count" deadline="2020-03-19 00:00:00"></flip-countdown>

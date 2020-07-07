@@ -67,21 +67,21 @@ const store = new Vuex.Store({
             name: "Buğra Ayan",
             profession: "Bilişim uzmanı-Yazar",
             headline: "Yapay Zeka ile İlhamın Matematiğini Çözebilir Miyiz?",
-            imgSrc: "../src/assets/speakers/bugra_ayan_profile.jpg",
+            imgSrc: "static/speakers/bugra_ayan_profile.jpg",
             address: "https://www.linkedin.com/in/bugraayan"
           },
           {
             name: "Batuhan Bardak",
             profession: "STM-Yapay Zeka Uzmanı",
             headline: "Yapay Zeka ve Gelecek Öngörüleri",
-            imgSrc: "../src/assets/speakers/batuhan_bardak_profile2.jpg",
+            imgSrc: "static/speakers/batuhan_bardak_profile2.jpg",
             address: "https://tr.linkedin.com/in/batuhanbardak"
           },
           {
             name: "Dr.Berker Loğoğlu",
             profession: "Kuartis-Makine Öğrenmesi Grup Yöneticisi",
             headline: "Otonom Araçlarda Yapay Zeka",
-            imgSrc: "../src/assets/speakers/berker_logoglu.jpg",
+            imgSrc: "static/speakers/berker_logoglu.jpg",
             address: "https://www.linkedin.com/in/berkerlogoglu"
           }
         ]
@@ -94,28 +94,28 @@ const store = new Vuex.Store({
             name: "Doç.Dr. Murat Ceylan",
             profession: "Yazgit-Akademik Danışman",
             headline: "Açılış Konuşması",
-            imgSrc: "../src/assets/speakers/murat_ceylan.jpg",
+            imgSrc: "static/speakers/murat_ceylan.jpg",
             address: "http://ktun.edu.tr/PersonelBilgi/Index/MjgyMTAwNjAwMTA="
           },
           {
             name: "Prof.Dr. Melih Bulut",
             profession: "Sağlıkta İşbirliği Platformu-Kurucu",
             headline: "Yapay Zeka Tıbbı Dönüştürebilir Mi?",
-            imgSrc: "../src/assets/speakers/melih_bulut.jpg",
+            imgSrc: "static/speakers/melih_bulut.jpg",
             address: "https://tr.linkedin.com/in/melih-bulut-b882a3157"
           },
           {
             name: "Selin Arslanhan",
             profession: "ReDis Innovation-Kurucu",
             headline: "Yapay Zeka ve Biyogirişimcilikte Küresel Eğilimler",
-            imgSrc: "../src/assets/speakers/selin_arslanhan.jpg",
+            imgSrc: "static/speakers/selin_arslanhan.jpg",
             address: "https://twitter.com/selinarslanhan"
           },
           {
             name: "Elçin Tuncer",
             profession: "PortalGrup Healthcare-Kurucu",
             headline: "Yapay Zeka ve Yeni Dünya",
-            imgSrc: "../src/assets/speakers/elcin_profile.jpg",
+            imgSrc: "static/speakers/elcin_profile.jpg",
             address: "https://www.linkedin.com/in/elcintuncer"
           }
         ]

@@ -28,11 +28,11 @@
     <!-- Sponsors Content -->
     <div class="sponsors">
       <h2>Sponsorlarımız</h2>
-      <img class="sponsor-img" src="../assets/logos/aivision.png" alt="Aivision sirketi logo" />
-      <img width="200px" src="../assets/logos/kso.png" alt="Konya sanayi odasi logo" />
-      <img width="200px" src="../assets/logos/elfatek.jpg" alt="Elfatek sirket logo" />
-      <img width="140px" src="../assets/logos/kto.png" alt="Konya ticaret odasi logo" />
-      <img width="140px" src="../assets/logos/ktun.png" alt="Konya teknik üniversitesi logo" />
+      <img class="sponsor-img" src="static/logos/aivision.png" alt="Aivision sirketi logo" />
+      <img width="200px" src="static/logos/kso.png" alt="Konya sanayi odasi logo" />
+      <img width="200px" src="static/logos/elfatek.jpg" alt="Elfatek sirket logo" />
+      <img width="140px" src="static/logos/kto.png" alt="Konya ticaret odasi logo" />
+      <img width="140px" src="static/logos/ktun.png" alt="Konya teknik üniversitesi logo" />
     </div>
     <!-- End of Sponsors Content -->
   </section>
@@ -69,7 +69,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../assets/background.svg");
+  background-image: url("/static/background.svg");
   background-size: 100vw;
 }
 .glitch {

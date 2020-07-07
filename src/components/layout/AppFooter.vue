@@ -6,7 +6,7 @@
         <img
           width="130"
           class="logo"
-          src="../../assets/logos/yazgit_logo.svg"
+          src="static/logos/yazgit_logo.svg"
           alt="Konya yapay zeka ve görüntü isleme toplulugu logo"
         />
         <p id="logo-name">
@@ -19,7 +19,7 @@
     </div>
     <!-- Author Name -->
     <div class="footer-center">
-      <img width="20px" src="../../assets/icons/Code.svg" />
+      <img width="20px" src="static/icons/Code.svg" />
       &nbsp;
       <a href="https://github.com/Ercan93" target="_blank">{{author}}</a>
     </div>

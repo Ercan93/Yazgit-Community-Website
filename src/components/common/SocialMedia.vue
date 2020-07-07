@@ -1,7 +1,7 @@
 <template>
   <div class="social-media">
     <a v-for="Account in socialMediaAcc" v-bind:href="`${Account.href}`" target="_blank">
-      <img v-bind:src="`${iconPath}${Account.title}.svg`" width="50px" alt />
+      <img v-bind:src="`static/icons/${Account.title}.svg`" width="50px" alt />
       <p>{{Account.AccName}}</p>
     </a>
   </div>
@@ -9,11 +9,6 @@
 <script>
 import { mapGetters } from "vuex";
 export default {
-  data() {
-    return {
-      iconPath: "../src/assets/icons/"
-    };
-  },
   computed: {
     ...mapGetters({
       socialMediaAcc: "socialMediaAccGetters"

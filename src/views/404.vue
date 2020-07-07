@@ -3,7 +3,7 @@
     <router-link class="back-to-home" to="/">
       <p>Eve Dön</p>
     </router-link>
-    <img class="error" src="../assets/Error404.svg" alt />
+    <img class="error" src="static/Error404.svg" alt />
   </div>
 </template>
 <style scoped>
