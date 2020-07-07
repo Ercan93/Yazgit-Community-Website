@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .warning {
   color: white;
-  background-color: darkred;
+  background-color: rgb(11, 11, 49);
   font-family: "Merriweather";
   text-align: center;
   margin: 30px 0 60px 0;

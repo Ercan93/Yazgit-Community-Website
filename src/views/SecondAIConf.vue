@@ -89,7 +89,7 @@ a {
   margin-top: 150px;
   font-family: "Righteous";
   text-align: center;
-  color: rgb(95, 11, 11);
+  color: rgb(10, 11, 78);
 }
 .cards {
   width: 95vw;
